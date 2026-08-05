@@ -157,24 +157,13 @@ const Projects = () => {
                 MongoDB Atlas, and Cloudinary.
               </p>
 
-              <div className="grid md:grid-cols-2 gap-4 mt-8">
-
-                <a
-                  href="https://guitar-in-soul.vercel.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={arrangement}
-                    className="w-full h-48 object-cover rounded-2xl border shadow-md"
-                  />
-                  
-                </a>
 
 
 
 
-              </div>
+
+
+
 
               <div className="flex flex-wrap gap-3 mt-8">
 
@@ -187,6 +176,22 @@ const Projects = () => {
                 <span className="px-4 py-2 bg-black text-white rounded-full">Cloudinary</span>
 
               </div>
+              <a
+                href="https://guitar-in-soul.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+
+
+                <div className="mt-8">
+                  <img
+                    src={arrangement}
+                    alt="Arrangements"
+                    className="w-full h-48 object-cover rounded-2xl border shadow-md"
+                  />
+                </div>
+
+              </a>
 
               <div className="flex gap-5 mt-8">
 
