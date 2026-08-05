@@ -4,13 +4,13 @@ import {
   FaExternalLinkAlt,
   FaCode,
 } from "react-icons/fa";
-import cover from "../assets/projects/Cover.png";
-import arrangement from "../assets/projects/Arrangement.png";
-import details from "../assets/projects/Details.png";
-import portfolioCover from "../assets/projects/PortfolioCover.png"
-import portfolioContact from "../assets/projects/PortfolioContact.png"
-import travelCover from "../assets/projects/TravelCover.png"
-import travelDestination from "../assets/projects/TravelDestination.png"
+import cover from "../assets/projects/cover.png";
+import arrangement from "../assets/projects/arrangement.png";
+import details from "../assets/projects/details.png";
+import portfolioCover from "../assets/projects/portfolioCover.png";
+import portfolioContact from "../assets/projects/portfolioContact.png";
+import travelCover from "../assets/projects/travelCover.png";
+import travelDestination from "../assets/projects/travelDestination.png";
 
 const Projects = () => {
   return (
