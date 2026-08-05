@@ -4,13 +4,13 @@ import {
   FaExternalLinkAlt,
   FaCode,
 } from "react-icons/fa";
-import cover from "../assets/projects/cover.png";
-import arrangement from "../assets/projects/arrangement.png";
-import details from "../assets/projects/details.png";
-import portfolioCover from "../assets/projects/portfolioCover.png"
-import portfolioContact from "../assets/projects/portfolioContact.png"
-import travelCover from "../assets/projects/travelCover.png"
-import travelDestination from "../assets/projects/travelDestination.png"
+import cover from "../assets/projects/Cover.png";
+import arrangement from "../assets/projects/Arrangement.png";
+import details from "../assets/projects/Details.png";
+import portfolioCover from "../assets/projects/PortfolioCover.png"
+import portfolioContact from "../assets/projects/PortfolioContact.png"
+import travelCover from "../assets/projects/TravelCover.png"
+import travelDestination from "../assets/projects/TravelDestination.png"
 
 const Projects = () => {
   return (
@@ -304,7 +304,7 @@ const Projects = () => {
                 </a>
 
                 <a
-                  href="https://your-portfolio.vercel.app"
+                  href="https://kausik-fullstack.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border-2 border-black px-6 py-3 rounded-full flex items-center gap-3 hover:bg-black hover:text-white transition"
