@@ -44,13 +44,15 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 items-start">
 
           {/* Travel Management System */}
-          <div className="bg-white rounded-3xl shadow-xl border border-gray-200 overflow-hidden flex flex-col h-full">
+          <div className="bg-white rounded-3xl shadow-lg border border-gray-200 overflow-hidden flex flex-col h-full
+transition-all duration-300 ease-out
+hover:scale-[1.02] hover:shadow-2xl">
 
             {/* Cover Image */}
             <img
               src={travelCover}
               alt="Travel Management System"
-              className="w-full h-64 object-cover"
+              className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
             />
 
             <div className="p-8">
@@ -110,7 +112,7 @@ const Projects = () => {
               <div className="flex gap-5 mt-8">
 
                 <a
-                  href="https://github.com/KausikDas2000/Travel_Management_System"
+                  href="https://github.com/KausikDas2000/TravelManagementSystem"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-black text-white px-6 py-3 rounded-full flex items-center gap-3 hover:bg-gray-800 transition"
@@ -134,12 +136,14 @@ const Projects = () => {
           </div>
 
           {/* Guitar In Soul */}
-          <div className="bg-white rounded-3xl shadow-xl border border-gray-200 overflow-hidden flex flex-col h-full">
+          <div className="bg-white rounded-3xl shadow-lg border border-gray-200 overflow-hidden flex flex-col h-full
+transition-all duration-300 ease-out
+hover:scale-[1.02] hover:shadow-2xl">
 
             <img
               src={cover}
               alt="Guitar In Soul"
-              className="w-full h-64 object-cover"
+              className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
             />
 
             <div className="p-8">
@@ -172,7 +176,6 @@ const Projects = () => {
                 <span className="px-4 py-2 bg-black text-white rounded-full">Express</span>
                 <span className="px-4 py-2 bg-black text-white rounded-full">MongoDB</span>
                 <span className="px-4 py-2 bg-black text-white rounded-full">Tailwind</span>
-                <span className="px-4 py-2 bg-black text-white rounded-full">JWT</span>
                 <span className="px-4 py-2 bg-black text-white rounded-full">Cloudinary</span>
 
               </div>
@@ -227,13 +230,15 @@ const Projects = () => {
 
 
           {/* Portfolio Project */}
-          <div className="bg-white rounded-3xl shadow-xl border border-gray-200 overflow-hidden flex flex-col h-full">
+          <div className="bg-white rounded-3xl shadow-lg border border-gray-200 overflow-hidden flex flex-col h-full
+transition-all duration-300 ease-out
+hover:scale-[1.02] hover:shadow-2xl">
 
             {/* Cover Image */}
             <img
               src={portfolioCover}
               alt="My Portfolio"
-              className="w-full h-64 object-cover"
+              className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
             />
 
             <div className="p-8">
@@ -283,9 +288,7 @@ const Projects = () => {
                   JWT
                 </span>
 
-                <span className="px-4 py-2 bg-black text-white rounded-full text-sm">
-                  Nodemailer
-                </span>
+
 
               </div>
 
