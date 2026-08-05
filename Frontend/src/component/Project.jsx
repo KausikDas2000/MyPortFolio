@@ -41,16 +41,16 @@ const Projects = () => {
         </div>
 
         {/* Projects */}
-        <div className="grid lg:grid-cols-2 gap-10">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 items-start">
 
           {/* Travel Management System */}
-          <div className="bg-white rounded-3xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-2xl transition duration-500">
+          <div className="bg-white rounded-3xl shadow-xl border border-gray-200 overflow-hidden flex flex-col h-full">
 
             {/* Cover Image */}
             <img
               src={travelCover}
               alt="Travel Management System"
-              className="w-full h-72 object-cover"
+              className="w-full h-64 object-cover"
             />
 
             <div className="p-8">
@@ -59,7 +59,7 @@ const Projects = () => {
                 ✈️ Travel Management System
               </h3>
 
-              <p className="text-gray-600 mt-5 leading-8">
+              <p className="text-gray-600 mt-5 leading-7 line-clamp-5">
                 A complete Travel Management System developed using PHP, MySQL, Bootstrap,
                 JavaScript, HTML, and CSS. The application allows users to explore travel
                 destinations, browse tour packages, view package details, and submit
@@ -102,7 +102,7 @@ const Projects = () => {
                 <img
                   src={travelDestination}
                   alt="Travel Destinations"
-                  className="w-full rounded-2xl border shadow-md hover:scale-[1.02] transition duration-300"
+                  className="w-full h-48 object-cover rounded-2xl border shadow-md"
                 />
               </div>
 
@@ -134,12 +134,12 @@ const Projects = () => {
           </div>
 
           {/* Guitar In Soul */}
-          <div className="bg-white rounded-3xl shadow-xl overflow-hidden border">
+          <div className="bg-white rounded-3xl shadow-xl border border-gray-200 overflow-hidden flex flex-col h-full">
 
             <img
               src={cover}
               alt="Guitar In Soul"
-              className="w-full h-[420px] object-cover"
+              className="w-full h-64 object-cover"
             />
 
             <div className="p-8">
@@ -148,7 +148,7 @@ const Projects = () => {
                 🎸 Guitar In Soul
               </h3>
 
-              <p className="text-gray-600 mt-5 leading-8">
+              <p className="text-gray-600 mt-5 leading-7 line-clamp-5">
                 Guitar In Soul is a full-stack MERN application built for guitar
                 enthusiasts to upload, discover, and manage guitar arrangements.
                 Users can securely authenticate, upload PDF notation and audio
@@ -159,15 +159,20 @@ const Projects = () => {
 
               <div className="grid md:grid-cols-2 gap-4 mt-8">
 
-                <img
-                  src={arrangement}
-                  className="rounded-xl border shadow hover:scale-105 transition duration-300"
-                />
+                <a
+                  href="https://guitar-in-soul.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={arrangement}
+                    className="w-full h-48 object-cover rounded-2xl border shadow-md"
+                  />
+                  
+                </a>
 
-                <img
-                  src={details}
-                  className="rounded-xl border shadow hover:scale-105 transition duration-300"
-                />
+
+
 
               </div>
 
@@ -217,13 +222,13 @@ const Projects = () => {
 
 
           {/* Portfolio Project */}
-          <div className="bg-white rounded-3xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-2xl transition duration-500">
+          <div className="bg-white rounded-3xl shadow-xl border border-gray-200 overflow-hidden flex flex-col h-full">
 
             {/* Cover Image */}
             <img
               src={portfolioCover}
               alt="My Portfolio"
-              className="w-full h-72 object-cover"
+              className="w-full h-64 object-cover"
             />
 
             <div className="p-8">
@@ -232,7 +237,7 @@ const Projects = () => {
                 💼 My Portfolio
               </h3>
 
-              <p className="text-gray-600 mt-5 leading-8">
+              <p className="text-gray-600 mt-5 leading-7 line-clamp-5">
                 A modern full-stack developer portfolio built with React, Node.js,
                 Express, MongoDB, and Tailwind CSS. The portfolio showcases my
                 projects, technical skills, experience, resume, and provides a
@@ -285,7 +290,7 @@ const Projects = () => {
                 <img
                   src={portfolioContact}
                   alt="Portfolio Contact"
-                  className="w-full rounded-2xl border shadow-md hover:scale-[1.02] transition duration-300"
+                  className="w-full h-48 object-cover rounded-2xl border shadow-md"
                 />
 
               </div>
