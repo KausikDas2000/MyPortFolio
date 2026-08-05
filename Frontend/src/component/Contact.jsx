@@ -34,7 +34,7 @@ const Contact = () => {
 
     try {
       const res = await axios.post(
-        "https://portfoliobackend-4gyn.onrender.com/api/contact",
+        "https://myportfolio-bqkt.onrender.com/api/contact",
         formData
       );
 
